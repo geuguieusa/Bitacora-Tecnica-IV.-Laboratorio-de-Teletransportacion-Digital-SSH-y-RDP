@@ -19,19 +19,25 @@ Con esto pude hacer una conexión sin pedir contraseña.
 
 Para el hardening entré como root con [ docker exec -it lab_ssh_servidor sh ] y edité .../etc/ssh/sshd_config: 
 
+![Escritorio remoto](conexionSinContraseña.png)
+
 ```
 PasswordAuthentication no
 PermitRootLogin no
 PubkeyAuthentication yes
 ```
 
-Recargué con `kill -HUP $(pgrep sshd)`.
+Recargué con `kill -HUP $(pgrep sshd)`. 
+
+![Edicion nano](edicionNano.png)
 
 ---
 
 ## RDP: El Escritorio en tu Navegador
 
 Accedí desde el navegador a http://localhost:3000 y vi el escritorio Ubuntu completo.
+
+![Escritorio remoto](escritorioRemoto.png)
 
 ---
 
