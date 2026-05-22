@@ -5,7 +5,7 @@ para el alojamiento de la aplicación en AWS.
 El cálculo incluye cómputo, almacenamiento y transferencia de red,
 aplicando el IVA vigente del 21%.
 
-![Tabla de costes AWS](./presupuesto_cloud.png)
+![Tabla de costes AWS](./presupuesto_cloud.pnng)
 
 El coste total mensual estimado sube hasta a **22,75 €**, lo que representa
 una solución económicamente viable para la fase inicial del proyecto.
